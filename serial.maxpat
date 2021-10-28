@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-58",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 951.0, 43.0, 150.0, 47.0 ],
+					"text" : "click print to show serial port names in max console"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-56",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -57,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 707.0, 91.0, 242.0, 20.0 ],
-					"text" : "add your serial port here and bang it"
+					"text" : "<------ add your serial port here and bang it"
 				}
 
 			}
@@ -68,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 666.0, 42.0, 37.0, 22.0 ],
+					"patching_rect" : [ 912.0, 43.0, 37.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -80,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 666.0, 66.0, 37.0, 22.0 ],
+					"patching_rect" : [ 912.0, 67.0, 37.0, 22.0 ],
 					"text" : "serial"
 				}
 
